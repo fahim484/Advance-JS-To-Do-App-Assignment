@@ -1,0 +1,38 @@
+/* === Google Font === */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .btn {
+    @apply border-none outline-none py-4 px-[50px] bg-[#ff5945] text-white text-base cursor-pointer rounded-[40px];
+  }
+
+  .input {
+    @apply border-none outline-none bg-transparent p-3;
+  }
+
+  .li {
+    @apply flex items-center justify-between max-w-[500px] list-none text-base pt-3 pr-2 pb-3 pl-12 select-none cursor-pointer;
+  }
+
+  .li-input {
+    @apply shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight mr-3;
+  }
+
+  .div{
+    @apply flex items-center justify-between gap-10
+  }
+  .span-btn {
+    @apply w-10 h-10 text-2xl text-[#555] leading-10 text-center rounded-full hover:bg-[#edeef0];
+  }
+
+  .edit-btn {
+    @apply w-10 h-10 text-xl text-[#555] leading-10 text-center rounded-full hover:bg-[#edeef0];
+  }
+  .edit-btn {
+    @apply w-10 h-10 text-xl text-[#555] leading-10 text-center rounded-full hover:bg-[#edeef0];
+  }
+}
