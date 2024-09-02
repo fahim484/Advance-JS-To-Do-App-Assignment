@@ -1,15 +1,11 @@
-// Vite configaration file:
-
-import { resolve } from "path";
+// vite.config.js
 import { defineConfig } from "vite";
 
 export default defineConfig({
   build: {
     rollupOptions: {
-      input: {
-        main: resolve(__dirname, "index.html"),
-        script: resolve(__dirname, "script.js"),
-      },
+      input: "index.html", // Only the main HTML file is needed
     },
   },
 });
+
